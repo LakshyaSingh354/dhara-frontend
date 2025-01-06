@@ -37,7 +37,7 @@ export default function SearchPage() {
 
 			try {
 				const response = await fetch(
-					"https://dharawa-e6d3hvc0f5hhe3f5.centralindia-01.azurewebsites.net/upload-files",
+					"https://dhara-model-92062613767.asia-south1.run.app/upload-files",
 					{
 						method: "POST",
 						body: formData, // Send the files to the backend
@@ -67,7 +67,7 @@ export default function SearchPage() {
 
 		try {
 			console.log("query", query);
-			const response = await fetch("https://dharawa-e6d3hvc0f5hhe3f5.centralindia-01.azurewebsites.net/query", {
+			const response = await fetch("https://dhara-model-92062613767.asia-south1.run.app/query", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
