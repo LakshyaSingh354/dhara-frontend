@@ -37,7 +37,7 @@ export default function SearchPage() {
 
 			try {
 				const response = await fetch(
-					"https://dhara-model-92062613767.asia-south1.run.app/upload-files",
+					"https://dhara-model-92062613767.us-central1.run.app/upload-files",
 					{
 						method: "POST",
 						body: formData, // Send the files to the backend
@@ -67,7 +67,7 @@ export default function SearchPage() {
 
 		try {
 			console.log("query", query);
-			const response = await fetch("https://dhara-model-92062613767.asia-south1.run.app/query", {
+			const response = await fetch("https://dhara-model-92062613767.us-central1.run.app/query", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
